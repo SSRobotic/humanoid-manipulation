@@ -1,0 +1,136 @@
+[
+  {
+    "id": "moveit-moveit2",
+    "key": "moveit/moveit2",
+    "title": "MoveIt 2",
+    "description": "ROS 2 motion-planning and manipulation framework.",
+    "descriptionTh": "เฟรมเวิร์ก Motion Planning และ Manipulation สำหรับ ROS 2",
+    "categories": [
+      "manipulation",
+      "ros"
+    ],
+    "tags": [
+      "ROS 2",
+      "Motion planning",
+      "Manipulation"
+    ],
+    "source": "upstream",
+    "owner": "moveit",
+    "url": "https://github.com/moveit/moveit2",
+    "upstream": "https://github.com/moveit/moveit2",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "collections-dobot-ros2-vision",
+    "title": "DOBOT Vision & Manipulation",
+    "categories": [
+      "vision",
+      "manipulation"
+    ],
+    "tags": [
+      "RealSense",
+      "YOLO",
+      "ROS 2",
+      "EG0053-01"
+    ],
+    "description": "RealSense / calibration / recognition examples for the EG0053-01 workstation.",
+    "descriptionTh": "ตัวอย่างกล้อง RealSense, Hand-eye Calibration และ Grasping สำหรับ Workstation EG0053-01",
+    "source": "collection",
+    "owner": "Dobot-Arm",
+    "url": "https://github.com/SSRobotic/dobot-vision",
+    "upstream": "https://github.com/Dobot-Arm/dobot_ros2_vision",
+    "verifiedOn": "2026-10-10",
+    "key": "dobot-vision",
+    "collectionPath": "collections/dobot/ros2-vision"
+  },
+  {
+    "id": "collections-dobot-atom-ros2",
+    "title": "DOBOT Atom ROS 2",
+    "categories": [
+      "manipulation",
+      "ros"
+    ],
+    "tags": [
+      "Atom",
+      "ROS 2",
+      "Gazebo"
+    ],
+    "description": "DOBOT Atom ROS 2 model, simulation and integration collection.",
+    "descriptionTh": "ชุด ROS 2 พร้อมโมเดล Simulation และตัวอย่างควบคุม DOBOT Atom",
+    "source": "collection",
+    "owner": "Dobot-Arm",
+    "url": "https://github.com/SSRobotic/dobot-atom-ros2",
+    "upstream": "https://github.com/Dobot-Arm/dobot_atom_ros2",
+    "verifiedOn": "2026-10-10",
+    "key": "dobot-atom-ros2",
+    "collectionPath": "collections/dobot/atom-ros2"
+  },
+  {
+    "id": "collections-dobot-magician-ros",
+    "title": "DOBOT Magician ROS",
+    "categories": [
+      "manipulation"
+    ],
+    "tags": [
+      "Magician",
+      "ROS Kinetic",
+      "Robot arm"
+    ],
+    "description": "Legacy ROS demo for the DOBOT Magician desktop arm.",
+    "descriptionTh": "ตัวอย่าง ROS รุ่นเดิมสำหรับแขนกลตั้งโต๊ะ เป็นเครื่องมือ Manipulation ที่เกี่ยวข้อง",
+    "source": "collection",
+    "owner": "Dobot-Arm",
+    "url": "https://github.com/SSRobotic/dobot-magician-ros",
+    "upstream": "https://github.com/Dobot-Arm/Magician_ROS",
+    "verifiedOn": "2026-10-10",
+    "key": "dobot-magician-ros",
+    "collectionPath": "collections/dobot/magician-ros"
+  },
+  {
+    "id": "ARISE-Initiative-robomimic",
+    "key": "ARISE-Initiative/robomimic",
+    "title": "robomimic",
+    "description": "Modular tools for learning robotic manipulation from demonstrations.",
+    "descriptionTh": "เครื่องมือแบบโมดูลสำหรับเรียนรู้ Manipulation จาก Demonstration",
+    "categories": [
+      "learning",
+      "manipulation",
+      "research"
+    ],
+    "tags": [
+      "Imitation learning",
+      "Demonstrations",
+      "Manipulation"
+    ],
+    "source": "upstream",
+    "owner": "ARISE-Initiative",
+    "url": "https://github.com/ARISE-Initiative/robomimic",
+    "upstream": "https://github.com/ARISE-Initiative/robomimic",
+    "license": "MIT",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "huggingface-lerobot",
+    "title": "LeRobot",
+    "categories": [
+      "learning",
+      "manipulation",
+      "datasets"
+    ],
+    "tags": [
+      "Imitation learning",
+      "Datasets",
+      "Python"
+    ],
+    "description": "Robot learning tools, datasets and policies. A supporting embodied AI resource; hardware support is project-specific.",
+    "descriptionTh": "เครื่องมือ Dataset และ Policy สำหรับ Robot Learning เป็นแหล่งข้อมูล Embodied AI ที่เกี่ยวข้อง การรองรับฮาร์ดแวร์ขึ้นกับโครงการ",
+    "source": "upstream",
+    "owner": "huggingface",
+    "url": "https://github.com/huggingface/lerobot",
+    "upstream": "https://github.com/huggingface/lerobot",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10",
+    "key": "huggingface/lerobot"
+  }
+]
