@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
 <h1 align="center">🤏 Manipulation & Planning</h1>
-<p align="center"><b>SSRobotics · Engineering Resource Directory</b></p>
+<p align="center"><b>SSRobotics · Source Code Collection</b></p>
 
 <p align="center">
   <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-8-f28c28?style=flat-square" alt="8 curated resources"></a>
@@ -30,6 +30,23 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [robomimic](https://github.com/ARISE-Initiative/robomimic) | Modular tools for learning robotic manipulation from demonstrations. | Imitation learning, Demonstrations, Manipulation | [ARISE-Initiative](https://github.com/ARISE-Initiative/robomimic) |
 | [OMPL](https://github.com/ompl/ompl) | Sampling-based motion-planning algorithms; robot collision checking and execution are supplied by integrations. | Motion planning, RRT, Sampling | [ompl](https://github.com/ompl/ompl) |
 | [cuRobo](https://github.com/NVlabs/curobo) | GPU-accelerated robot motion-generation tools; verify the API version and supported robot setup upstream. | CUDA, Trajectory optimization, Motion planning | [NVlabs](https://github.com/NVlabs/curobo) |
+
+## 📦 Code & models in this repository
+
+**201 tracked upstream files** — เปิดโฟลเดอร์ด้านล่างเพื่อดูโค้ดจริง โมเดล และตัวอย่างต้นฉบับ
+
+| Project files | Files | Pinned source | License / notices |
+| --- | ---: | --- | --- |
+| [ARISE-Initiative/robomimic](projects/robomimic) | 201 | [`d309eaecc18a`](https://github.com/ARISE-Initiative/robomimic/tree/d309eaecc18acf4152a830a895a6984b8ac71b05) | [LICENSE](projects/robomimic/LICENSE) |
+
+[Source manifest](source-manifest.json) records commits, file counts, Git LFS pointers and external submodules. [Per-file manifests](source-manifests/) record original Git blob hashes. `projects/` keeps upstream code, README files, licenses and notices; SSRobotics supplies the organization and guides.
+
+```bash
+git clone --depth 1 https://github.com/SSRobotic/humanoid-manipulation.git
+cd humanoid-manipulation
+```
+
+Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
 
 ## 🚀 Start here
 

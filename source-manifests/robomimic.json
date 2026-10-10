@@ -1,0 +1,1221 @@
+{
+  "slug": "ARISE-Initiative/robomimic",
+  "source_url": "https://github.com/ARISE-Initiative/robomimic",
+  "commit": "d309eaecc18acf4152a830a895a6984b8ac71b05",
+  "branch": "master",
+  "snapshot": "all tracked file blobs at the pinned commit",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha": "004cd9f7d19c3ad03d85cc802e69d218741914eb",
+      "size": 1467,
+      "mode": "100644"
+    },
+    {
+      "path": "Dockerfile",
+      "sha": "3ff3336b3906e51580129cba7865c12c10e2f62a",
+      "size": 1968,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "934eaa87bb98d79ced50c8f27849625dc97b934d",
+      "size": 1089,
+      "mode": "100644"
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha": "03d46cbc6f2c4d1ebfbba8c8049fa04342f9defd",
+      "size": 312,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha": "91eff6421c82b538399a09688a1750ea83445a44",
+      "size": 5448,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/.gitignore",
+      "sha": "e35d8850c9688b1ce82711694692cc574a799396",
+      "size": 7,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/Makefile",
+      "sha": "0595f0948588c51afc2b7d076a2d83d1e8eaf580",
+      "size": 764,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/_static/theme_overrides.css",
+      "sha": "63ee6cc74ce038abb92976e6821248e73378dce6",
+      "size": 365,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/api/robomimic.algo.rst",
+      "sha": "52ba8a50a721312e45e6806590f58df3c9a3fb79",
+      "size": 1670,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/api/robomimic.config.rst",
+      "sha": "53b844d489908bd26f995dce094b818beeaa05c7",
+      "size": 2124,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/api/robomimic.envs.rst",
+      "sha": "5e7ab732b8ad3b6f532d58fe82816500e1f8fdee",
+      "size": 1015,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/api/robomimic.models.rst",
+      "sha": "b44dae10f097ae7871af7ada22cf738f960e6eba",
+      "size": 1770,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/api/robomimic.rst",
+      "sha": "2dc96c0619a465e3c8d744968aff6bd2dbaa8ba4",
+      "size": 624,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/api/robomimic.utils.rst",
+      "sha": "5970f84e6b7071e2686bdb98e5c2ad03e1f92c22",
+      "size": 2570,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/conf.py",
+      "sha": "59eff96808884ccc986f88c7050d164c4de31cad",
+      "size": 5226,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/datasets/d4rl.md",
+      "sha": "9e7165f588eef41f7594a01736779bc6d51411ab",
+      "size": 3904,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/datasets/mimicgen.md",
+      "sha": "3c47d2b795a0622bd286de1adc9bcd5eea66650d",
+      "size": 1638,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/datasets/momart.md",
+      "sha": "b76195a153588eba28693ed3a2fd76af1d915e24",
+      "size": 2684,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/datasets/overview.md",
+      "sha": "2bf39b92c864b172f31b380a52b171848335fedb",
+      "size": 8652,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/datasets/robomimic_v0.1.md",
+      "sha": "5943540c867330ddabf418fb08e740364c4eaaa2",
+      "size": 18175,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/datasets/robosuite.md",
+      "sha": "73f57b0f459e4eb3d95e73e347a686e8cc798e04",
+      "size": 5225,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/datasets/roboturk_pilot.md",
+      "sha": "78e4b5d8f45c8689813e828be52b2b4a88260cb7",
+      "size": 2010,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/can.png",
+      "sha": "fed37b4f49b09c007bc8cfe53fca684a622377bd",
+      "size": 522248,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/can_paired.png",
+      "sha": "1e2a43948f66e515ecf24d383f59d3838c4e2ad5",
+      "size": 3681388,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/can_real.jpg",
+      "sha": "53f03c9a8828d098811de97d52ab04779355c202",
+      "size": 2109362,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/core_features.png",
+      "sha": "f2da5f186342c45597b20f393de39c4c25a10afc",
+      "size": 495907,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/lift.png",
+      "sha": "700b2be00f1ec6a5b666ee286fb1f7119e05a7f7",
+      "size": 264309,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/lift_real.jpg",
+      "sha": "6c1f0566d1efdd071379616d0bf149ce4fdae753",
+      "size": 2031095,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/machine_generated.png",
+      "sha": "9c0078562edc5d4d17037de676fec4c6932a4f76",
+      "size": 52335,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/mimicgen_mosaic.gif",
+      "sha": "f1e5ddf61c668850ea1dac7485095208cb8f70f5",
+      "size": 8967711,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/module_overview.png",
+      "sha": "58c945e3fe66d767acc70e2b97091f73db6b95cf",
+      "size": 168296,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/modules.png",
+      "sha": "d8fbd85d4970e604394741a976b1d6f966da6b9b",
+      "size": 24568,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/momart_bowl_in_sink.png",
+      "sha": "08dfa6f76b59d7259b34b9c6382e35e4dd81ab72",
+      "size": 380288,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/momart_dump_trash.png",
+      "sha": "f7f7fefeb7880458976d5e44114d7eae5ca5b4d6",
+      "size": 406776,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/momart_grab_bowl.png",
+      "sha": "dfede5d9d524c9d7100b9afe9ed729275b5af16a",
+      "size": 502300,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/momart_open_dishwasher.png",
+      "sha": "ae00551afc0768467de2be943929b3bf06718bab",
+      "size": 292283,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/momart_open_dresser.png",
+      "sha": "9a891db2f6ed956f388d48f8d84db8907f62b722",
+      "size": 474877,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/momart_table_cleanup_to_dishwasher_overview.png",
+      "sha": "2cdc7ce1eb364ca6a432f6b8f2d6ff4a54327203",
+      "size": 1393163,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/momart_table_cleanup_to_sink_overview.png",
+      "sha": "387f0f6f9ea21ff4573e401a9a91456e15e82cc0",
+      "size": 1481818,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/momart_table_setup_from_dishwasher_overview.png",
+      "sha": "c8cabcc44101e0c3be85ed786fc61562403c3f15",
+      "size": 1322384,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/momart_table_setup_from_dresser_overview.png",
+      "sha": "4f81c4ccf727422dedce7921349835d8ba8a8a6c",
+      "size": 1354012,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/momart_unload_dishwasher_to_dresser_overview.png",
+      "sha": "d2935fa291a3c8cc78a0dfcdded10ac47862b7b2",
+      "size": 1339912,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/multi_human.png",
+      "sha": "0a060f5d4f65c8c6c4a32a3b53b24e56c4684584",
+      "size": 70173,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/proficient_human.png",
+      "sha": "9e606e1e7cb2fa33cc4f2a826e39426866564109",
+      "size": 36471,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/randomizer.gif",
+      "sha": "1a7ce76473654cf148277da543f28b4a717d1ea0",
+      "size": 596280,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/roboturk_pilot.png",
+      "sha": "c2b5ff3c47b7dd027babe93861aa96030e6b2ff3",
+      "size": 758871,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/square.png",
+      "sha": "fa1332b81e2f05f7d3553574fe6c3d4d80b2463f",
+      "size": 314395,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/task_can.gif",
+      "sha": "b9d3b9f47a0698f5790cc5c1dc901dbd26595d0b",
+      "size": 4747022,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/task_can_real.gif",
+      "sha": "36bcb7c03cc4e5eba26d545ded1e0290f0f1275d",
+      "size": 981091,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/task_lift.gif",
+      "sha": "742b8c80ac4811c9c13a704916d5610a0090ae9f",
+      "size": 3806544,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/task_lift_real.gif",
+      "sha": "b148f3368c788445597947f7a1210871b9aa27dc",
+      "size": 789230,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/task_square.gif",
+      "sha": "51daa358b67c0da5400e78175f609eddce5da489",
+      "size": 2673190,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/task_tool_hang.gif",
+      "sha": "feb2d3c124a432951bf62491ebc08e42ce6d80f5",
+      "size": 3507384,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/task_tool_hang_real.gif",
+      "sha": "78153ee251812800c68a7fc5eac9229ac389f53b",
+      "size": 3796608,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/task_transport.gif",
+      "sha": "f69f642dc858b6ebe84ff113c4151137b2b886e1",
+      "size": 3659852,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/tensorboard.png",
+      "sha": "3d4218675c6c25a9db65eefcac44250ae37786b8",
+      "size": 231730,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/tool_hang.png",
+      "sha": "72790771d405b5e09e583e3c351ae1d2b49f10ce",
+      "size": 354917,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/tool_hang_real.jpg",
+      "sha": "3e886e43434475f38f266c2081cc6bcec5ef5f0c",
+      "size": 2104221,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/images/transport.png",
+      "sha": "8d2f20f31e6a1847e759aed8c922c5d13d714701",
+      "size": 434844,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/index.rst",
+      "sha": "ae3df313289c3bde8317b7b0afa184d5e4e9bf59",
+      "size": 1987,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/introduction/getting_started.md",
+      "sha": "6b5535428d347071a655a6eaf0f737d173243223",
+      "size": 4479,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/introduction/implemented_algorithms.md",
+      "sha": "7e91d05852730cde7434db295136ff337a27372d",
+      "size": 2191,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/introduction/installation.md",
+      "sha": "d0aaf1590a797c35e3fcc26f5d04d853c127942c",
+      "size": 5091,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/introduction/overview.md",
+      "sha": "f71a6aa309eb028c0ce8047b657d859aae04bfa6",
+      "size": 9494,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/miscellaneous/acknowledgments.md",
+      "sha": "6d8c22d98e40a9a325af4a29cf61cac46b72b345",
+      "size": 2123,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/miscellaneous/contributing.md",
+      "sha": "fc6915950a5315b309f4a9d086a523e7559388ba",
+      "size": 5539,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/miscellaneous/references.md",
+      "sha": "b8739286e7dc21a6393ddb84daf31afba427181f",
+      "size": 213,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/miscellaneous/team.md",
+      "sha": "3878062c7f62b738d483fa87793ececa2a728a52",
+      "size": 771,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/miscellaneous/troubleshooting.md",
+      "sha": "189de42541181c6ec2c929705ee92db51c10b7e8",
+      "size": 857,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/model_zoo/robomimic_v0.1.md",
+      "sha": "d5ea855152595c425679e9b35a9bbfec81b88695",
+      "size": 3496,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/modules/algorithms.md",
+      "sha": "dd0bfd4dffefc074d5eb3405844448fa983919ba",
+      "size": 8267,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/modules/configs.md",
+      "sha": "b5043795f4992bc71d867ea944dba995c53e1810",
+      "size": 8145,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/modules/dataset.md",
+      "sha": "4c2510e2c3edd65c28e2efd591be4d51f69be138",
+      "size": 4780,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/modules/environments.md",
+      "sha": "f24a4b0caa2ecdf187b2c3db1bfc7e652d2efa47",
+      "size": 9587,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/modules/models.md",
+      "sha": "58f510f2f675930a1e4718566e174896fca0d214",
+      "size": 15228,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/modules/overview.md",
+      "sha": "2342feffcf4cbc94adff2df89d7027705cba65ea",
+      "size": 1458,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/prepare_html.py",
+      "sha": "2cfd7c5e2a597a076d29930f399bb32642426535",
+      "size": 1389,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/robomimic_logo.png",
+      "sha": "ad3ed2ec2b241779ca2471f42e6663fe574f6987",
+      "size": 20778,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/action_configs.md",
+      "sha": "e5cf2fb3f2e88af33d5221029cf88faae95c6510",
+      "size": 5971,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/configs.md",
+      "sha": "4b4caec51853f2e76ceca6da21a38d7077bd11e3",
+      "size": 2595,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/custom_algorithms.md",
+      "sha": "57e64fee06d8a0ad21ad1a321182cca34e707ce3",
+      "size": 18305,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/dataset_contents.md",
+      "sha": "b3f7ab506ca0b842441abf0e8e1bca0c02922bcb",
+      "size": 3578,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/hyperparam_scan.md",
+      "sha": "23cd9137ce833f45da4c3b8be859aee87bd5d817",
+      "size": 9707,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/language_conditioning.md",
+      "sha": "41e85c0ccfeacf5978324d6abad7b7d20f7ee7df",
+      "size": 2657,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/multi_dataset_training.md",
+      "sha": "f256b29203676baa495f92201eb240770b8c6566",
+      "size": 4011,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/observations.md",
+      "sha": "efebd04e7f19bc49bdd303c587694ec73f1c11d3",
+      "size": 2274,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/pretrained_representations.md",
+      "sha": "72c66a51b71e6a10917850520dba9539c8878651",
+      "size": 3393,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/reproducing_experiments.md",
+      "sha": "647c91423e9cc1d0ecdd0b0febac03509bad2676",
+      "size": 1084,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/tensor_collections.md",
+      "sha": "de9df643335e5c6381b0cf267cf7ae927772de98",
+      "size": 4026,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/training_diffusion_policy.md",
+      "sha": "6a193100c2fb2595526b9f0b921c1b21d87c74ee",
+      "size": 2909,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/training_transformers.md",
+      "sha": "b9dc6ae8d019278addda65bb5bcb232491a21a0c",
+      "size": 3300,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/using_pretrained_models.md",
+      "sha": "9f1114a88ee249ca4a2f5e2893d465c7f55fe8d3",
+      "size": 1648,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/tutorials/viewing_results.md",
+      "sha": "64acd9ff8760c0bc3a838e10d7c575b3d29a7fea",
+      "size": 4175,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/versions/v0.2.md",
+      "sha": "72e853db52c971bc9d850f937a69a978a3c1bc4f",
+      "size": 689,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/versions/v0.3.md",
+      "sha": "a9fa487b92cc8f7a3fafb7bf0f624926563bb649",
+      "size": 689,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/versions/v0.4.md",
+      "sha": "e5a28cab7b8c0e382da776dbffa656baeeeef79c",
+      "size": 689,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/add_new_modality.py",
+      "sha": "cf7fc876e255f1f695f24f9e3b6574d4ac0169a0",
+      "size": 9137,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/notebooks/datasets.ipynb",
+      "sha": "32893b7ae9776be7e859334c0621c36bf5606d30",
+      "size": 12338,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/notebooks/run_policy.ipynb",
+      "sha": "913d74ec40c071f67a45725f11ac21b01c3b56a6",
+      "size": 8738,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/simple_config.py",
+      "sha": "e80c6219479600f3d64b3df0b5bf32fb5f341af2",
+      "size": 1291,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/simple_obs_nets.py",
+      "sha": "780223dd47307275b672faad9fe85c34dcf15d32",
+      "size": 4637,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/simple_train_loop.py",
+      "sha": "3882397d9faf2f18a21498dd7aecbf221ef46fcc",
+      "size": 6440,
+      "mode": "100644"
+    },
+    {
+      "path": "examples/train_bc_rnn.py",
+      "sha": "b3ec7c510afdee2c32671dda1fa1c464b35bf20d",
+      "size": 24605,
+      "mode": "100644"
+    },
+    {
+      "path": "requirements-docs.txt",
+      "sha": "c3e63e56f8adbd57dbb5f3991b3d4c1abdf2223f",
+      "size": 116,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/__init__.py",
+      "sha": "648f66192d29eb038bec826b7e378912d89a6601",
+      "size": 6611,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/algo/__init__.py",
+      "sha": "dedba35c9b70e100cae7da46580720f35dc28ef1",
+      "size": 711,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/algo/algo.py",
+      "sha": "ca4f1ebba1c8284c2a40525a29fd30b61783a947",
+      "size": 22143,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/algo/bc.py",
+      "sha": "b824b329e7501ab5ede6777148f11a335b16f928",
+      "size": 33785,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/algo/bcq.py",
+      "sha": "5843ccb5bd594c596a8dc138eab863bb3f5e3550",
+      "size": 44707,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/algo/cql.py",
+      "sha": "0c24d50abd91426a4d96e91896c958b7df1ada0a",
+      "size": 29951,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/algo/diffusion_policy.py",
+      "sha": "0215ad71b8ddbdb1da5755a263d4b957a09288a1",
+      "size": 17202,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/algo/gl.py",
+      "sha": "24ae800892ee0866f9b4df3d94ff49eb1cd8d112",
+      "size": 28734,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/algo/hbc.py",
+      "sha": "543b1fbcf4ced11b9628d506b1972f1123a357b6",
+      "size": 13110,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/algo/iql.py",
+      "sha": "78142ddb9c08c4fb0ca0b1226b979db152c63966",
+      "size": 15347,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/algo/iris.py",
+      "sha": "7b441470c796749f92682ecf2b38a48e0bb3ada5",
+      "size": 6993,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/algo/td3_bc.py",
+      "sha": "e324c54a1614c1c01b3efdb1def9c8f6f11b2c70",
+      "size": 22422,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/__init__.py",
+      "sha": "d2cba6d3d89bcf9c73d7de8995dfef86ba9a8a94",
+      "size": 696,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/base_config.py",
+      "sha": "0d71bbfae74267fda78df740bfb98d8087341a6e",
+      "size": 18696,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/bc_config.py",
+      "sha": "da6337b3ab95a97876a2baf01892788382bf3151",
+      "size": 7962,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/bcq_config.py",
+      "sha": "e28f5ba5668aa2e5e6d9ca2187953a4e05b56a7d",
+      "size": 5834,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/config.py",
+      "sha": "74da6535b385f91aa5c34e20af731ba2e3d06ecb",
+      "size": 11279,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/cql_config.py",
+      "sha": "26fea048fe49d2d2d03f888eedab6754f37c8dcc",
+      "size": 5618,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/default_templates/bc_transformer.json",
+      "sha": "ed59f175b532c1cd61e8c4efefba1d985e8eaa31",
+      "size": 4906,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/diffusion_policy_config.py",
+      "sha": "d26b79bc46c7e187310bb5e70626f2efc5c33be0",
+      "size": 3540,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/gl_config.py",
+      "sha": "939103e65dd5f7519fb7be2c9fa1928d5b430bf2",
+      "size": 5131,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/hbc_config.py",
+      "sha": "ae65c9b85fc168dc65666392fd334810b622ab04",
+      "size": 4068,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/iql_config.py",
+      "sha": "bd603d1aa0183639971b16747c5020afa6d04fe3",
+      "size": 4835,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/iris_config.py",
+      "sha": "c03328cead61f1a977d76bb4b684613586c2a08c",
+      "size": 4408,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/config/td3_bc_config.py",
+      "sha": "036a2591a91b4a4f5da4e2415dd035117e587900",
+      "size": 5755,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/envs/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/envs/env_base.py",
+      "sha": "1baa74b19ec8c7651dfc7c07aa178b776596a64e",
+      "size": 6861,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/envs/env_gym.py",
+      "sha": "83155cc18c511bb75dd393b69f54c091003ff890",
+      "size": 8490,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/envs/env_ig_momart.py",
+      "sha": "72efa0531f7b678bd405fd490b1faf905b44e02c",
+      "size": 15320,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/envs/env_robosuite.py",
+      "sha": "ba146b2b69a598576bb0b531728f83bdeee3913b",
+      "size": 22679,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/envs/wrappers.py",
+      "sha": "9936f9de70573c78aba8389328b911a139666f05",
+      "size": 7818,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/exps/templates/bc.json",
+      "sha": "0645b3d3b006625174ee84999ac0383ee2d2f418",
+      "size": 6416,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/exps/templates/bc_transformer.json",
+      "sha": "71461ffa6da955a452a4df20c61d4e896fddef43",
+      "size": 4926,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/exps/templates/bcq.json",
+      "sha": "5b6d879450e84668959e6d02b1426decbffaaac2",
+      "size": 7064,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/exps/templates/cql.json",
+      "sha": "5ac165ffa40aa797e98d35c0c6ab031486cc568b",
+      "size": 5363,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/exps/templates/diffusion_policy.json",
+      "sha": "90d5192ea8868734003e60bd06a63fc4f97af765",
+      "size": 5183,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/exps/templates/gl.json",
+      "sha": "40fc82c8c4d9c401694de95723b714e9c0866b8b",
+      "size": 5394,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/exps/templates/hbc.json",
+      "sha": "9284d50a5b7ce5513d93425afc53237de53ecb7b",
+      "size": 9383,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/exps/templates/iql.json",
+      "sha": "1952df9401c17fd39832007146a79accf6db5383",
+      "size": 5589,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/exps/templates/iris.json",
+      "sha": "97e8cfdaba36ed8828356cd99c7fd9cb2a86c315",
+      "size": 16224,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/exps/templates/td3_bc.json",
+      "sha": "2b6d63137044edfc2427bf8b660f86f4dd20ee8c",
+      "size": 4816,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/macros.py",
+      "sha": "3b6c05038ca2021a3981908cea3888601a21351c",
+      "size": 852,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/models/__init__.py",
+      "sha": "7460f9309af64c4578b547e0944c7e1366b5946c",
+      "size": 46,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/models/base_nets.py",
+      "sha": "eee8402f060f164745c20cd7c5ce001e80391ddf",
+      "size": 50196,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/models/diffusion_policy_nets.py",
+      "sha": "eb831257c02dfddde63fe8a895baceccbcc60c7a",
+      "size": 8037,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/models/distributions.py",
+      "sha": "411efb1a8bbc6b0da7ac6f628357dc9c178b8780",
+      "size": 4673,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/models/obs_core.py",
+      "sha": "1ac8b6289876fe42b4337212f3b244879bb25901",
+      "size": 35702,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/models/obs_nets.py",
+      "sha": "abdfc83873876d632ef98f30a8fbf04aeaba4d7a",
+      "size": 48673,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/models/policy_nets.py",
+      "sha": "8dba1d934cbb6b6a6f2d5c6475d699c48eb2a302",
+      "size": 61271,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/models/transformers.py",
+      "sha": "309bff301d02ad561a34021dbea5d370249cef0f",
+      "size": 15788,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/models/vae_nets.py",
+      "sha": "91b4e7f02352126f17fcc92a0e651080a4e0bee6",
+      "size": 58840,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/models/value_nets.py",
+      "sha": "c98fa7e4e0f4185b2a11e5581158268aa9cda2cf",
+      "size": 12072,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/conversion/convert_d4rl.py",
+      "sha": "99fc1d93c53709f6f149d43457c582cea77e853c",
+      "size": 5362,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/conversion/convert_robosuite.py",
+      "sha": "f64f6d0e0b7e5d758d183c1d572aa2a580d87600",
+      "size": 4068,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/conversion/convert_roboturk_pilot.py",
+      "sha": "2105980453d59be953f3fbe58a3a5ace12a8dccb",
+      "size": 6878,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/conversion/robosuite_add_absolute_actions.py",
+      "sha": "5ccd65d2434b6eb84a4335bc5a6a84aace278a88",
+      "size": 7867,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/dataset_states_to_obs.py",
+      "sha": "da54685e57615175c859167fb62c504bbe112903",
+      "size": 17012,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/dataset_states_to_obs_mp.py",
+      "sha": "6b09f6f4d0601108399dd4b5d463c7d64683507a",
+      "size": 26466,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/download_datasets.py",
+      "sha": "81b8f50756e107a7e3a682b7a40f80c4086b0205",
+      "size": 8307,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/download_momart_datasets.py",
+      "sha": "affecf11b525f39aaae47095bb85c6086a955a70",
+      "size": 6766,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/extract_action_dict.py",
+      "sha": "b126e796161eb881a7f55c492daaf567f1eee123",
+      "size": 2576,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/extract_obs_from_raw_datasets.sh",
+      "sha": "85aa0b40256b4e7372b445e44b6cbc30e55fa065",
+      "size": 5660,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/filter_dataset_size.py",
+      "sha": "60c9e20a8a9ee8abda882699f2ba25dd2b2c8a28",
+      "size": 2861,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/generate_config_templates.py",
+      "sha": "56e1d8710c124cd418850bf25e016873ed88c49d",
+      "size": 871,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/generate_paper_configs.py",
+      "sha": "52ed7d5b15a25def7da7a02c7c0e135772f269a0",
+      "size": 64386,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/get_dataset_info.py",
+      "sha": "9349ed8aaa15823b662d582ef116d78067c3f559",
+      "size": 5188,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/hyperparam_helper.py",
+      "sha": "870c739ecbf4a751b6e62c363555d451cfa68ae2",
+      "size": 4407,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/playback_dataset.py",
+      "sha": "98f51b20bc27eea916175bb88e5652d3acd057f3",
+      "size": 14743,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/run_trained_agent.py",
+      "sha": "7b6fe29d2ab4a2c73723a3ed614fb0446e8fc5aa",
+      "size": 13270,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/setup_macros.py",
+      "sha": "92c472712078684a84e9ae624b13cd7d9b6c953c",
+      "size": 997,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/split_train_val.py",
+      "sha": "9d0502ea81dc238e21e0211c1c71c803f0b1b00d",
+      "size": 3566,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/scripts/train.py",
+      "sha": "66218fcb8e2429f8111d322b8518535f36982d6a",
+      "size": 23846,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/dataset.py",
+      "sha": "a60d10198680c629074903f3cbccaf6066f0b04e",
+      "size": 39127,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/env_utils.py",
+      "sha": "c19217c474e311adca6c56723a48cd7d8208542b",
+      "size": 13058,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/file_utils.py",
+      "sha": "8d770af95dd1486a62e548e3e85b4548fd7a85f8",
+      "size": 22045,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/hyperparam_utils.py",
+      "sha": "327710d2333018100aac8b482d0f1dec6ab82191",
+      "size": 15473,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/lang_utils.py",
+      "sha": "c0356f28393feda6c7d6dd85df30b7a161d28ac2",
+      "size": 1678,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/log_utils.py",
+      "sha": "55abc9b5407bf20a7d6202ee3d07577033b8bb0a",
+      "size": 8323,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/loss_utils.py",
+      "sha": "b3f5bf223ed7dfbd510b4b8a8edf2e98b0567613",
+      "size": 7576,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/obs_utils.py",
+      "sha": "66d9c540a738df3401f5a0b014abc773b3c40898",
+      "size": 40314,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/python_utils.py",
+      "sha": "eff8985ac8bf0c0f42cd04f8b03c40899f7b95f6",
+      "size": 4302,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/tensor_utils.py",
+      "sha": "ec2063b24c5d39333645edcf53a8468ab28a24df",
+      "size": 30286,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/test_utils.py",
+      "sha": "7c64eabf2d351d3a52d4b5dd0304edf622d16f42",
+      "size": 9805,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/torch_utils.py",
+      "sha": "b1ce5561f154ae4ab2d19a2e2d33cd0bf3b94f6e",
+      "size": 24755,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/train_utils.py",
+      "sha": "ba6194579f0095a4277d053bdfb5e87e4324ca19",
+      "size": 28440,
+      "mode": "100644"
+    },
+    {
+      "path": "robomimic/utils/vis_utils.py",
+      "sha": "d6038f7bc40c0e20d0b30879ece2c1b30b3b56c6",
+      "size": 3736,
+      "mode": "100644"
+    },
+    {
+      "path": "setup.py",
+      "sha": "704db21b3f24434efaa608601572430182485fae",
+      "size": 1435,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test.sh",
+      "sha": "e25e77c134753f486bfa3231fc3abe7bef11754c",
+      "size": 388,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_bc.py",
+      "sha": "adc125014bafb920aa45d69fc7d48798d3231c6f",
+      "size": 10256,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_bcq.py",
+      "sha": "b8bd08356575e66cb779afa2aebf71b560262cd4",
+      "size": 10574,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_cql.py",
+      "sha": "a78c4bf222e4fb312c0b9395a65001ccbd474f83",
+      "size": 5829,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_examples.py",
+      "sha": "6696015f18bd3ef59bf4e04fd19d41a1026dd0e3",
+      "size": 2668,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_hbc.py",
+      "sha": "e55606960b85164a36d3b6d9fc35bde1c6f0fa03",
+      "size": 6719,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_iql.py",
+      "sha": "e80a8f3bdc2949166d65c32de1134c85fc6c7901",
+      "size": 5387,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_iris.py",
+      "sha": "126c5c288fff150bbde55aa8570e3e4e31df3943",
+      "size": 13881,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_scripts.py",
+      "sha": "ab17208cf2b71549cdc89f49935890bd9f526bfc",
+      "size": 7212,
+      "mode": "100644"
+    }
+  ],
+  "gitlinks": [],
+  "license": "MIT",
+  "folder": "projects/robomimic",
+  "file_count": 201,
+  "bytes": 57731921,
+  "lfs_pointers": []
+}

@@ -63,7 +63,15 @@
     "upstream": "https://github.com/Dobot-Arm/dobot_ros2_vision",
     "verifiedOn": "2026-10-10",
     "key": "dobot-vision",
-    "collectionPath": "collections/dobot/ros2-vision"
+    "collectionPath": "collections/dobot/ros2-vision",
+    "localCopies": [
+      {
+        "repository": "humanoid-vision",
+        "url": "https://github.com/SSRobotic/humanoid-vision/tree/main/projects/dobot_vision",
+        "commit": "27de346b103eb8ea42fca20e9eefc1ca7f2079cb",
+        "fileCount": 134
+      }
+    ]
   },
   {
     "id": "huggingface-lerobot",
@@ -132,7 +140,15 @@
     "url": "https://github.com/ARISE-Initiative/robomimic",
     "upstream": "https://github.com/ARISE-Initiative/robomimic",
     "license": "MIT",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-manipulation",
+        "url": "https://github.com/SSRobotic/humanoid-manipulation/tree/main/projects/robomimic",
+        "commit": "d309eaecc18acf4152a830a895a6984b8ac71b05",
+        "fileCount": 201
+      }
+    ]
   },
   {
     "id": "ompl-ompl",
