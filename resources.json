@@ -1,50 +1,5 @@
 [
   {
-    "id": "moveit-moveit2",
-    "key": "moveit/moveit2",
-    "title": "MoveIt 2",
-    "description": "ROS 2 motion-planning and manipulation framework.",
-    "descriptionTh": "เฟรมเวิร์ก Motion Planning และ Manipulation สำหรับ ROS 2",
-    "categories": [
-      "manipulation",
-      "ros"
-    ],
-    "tags": [
-      "ROS 2",
-      "Motion planning",
-      "Manipulation"
-    ],
-    "source": "upstream",
-    "owner": "moveit",
-    "url": "https://github.com/moveit/moveit2",
-    "upstream": "https://github.com/moveit/moveit2",
-    "license": "BSD-3-Clause",
-    "verifiedOn": "2026-10-10"
-  },
-  {
-    "id": "collections-dobot-ros2-vision",
-    "title": "DOBOT Vision & Manipulation",
-    "categories": [
-      "vision",
-      "manipulation"
-    ],
-    "tags": [
-      "RealSense",
-      "YOLO",
-      "ROS 2",
-      "EG0053-01"
-    ],
-    "description": "RealSense / calibration / recognition examples for the EG0053-01 workstation.",
-    "descriptionTh": "ตัวอย่างกล้อง RealSense, Hand-eye Calibration และ Grasping สำหรับ Workstation EG0053-01",
-    "source": "collection",
-    "owner": "Dobot-Arm",
-    "url": "https://github.com/SSRobotic/dobot-vision",
-    "upstream": "https://github.com/Dobot-Arm/dobot_ros2_vision",
-    "verifiedOn": "2026-10-10",
-    "key": "dobot-vision",
-    "collectionPath": "collections/dobot/ros2-vision"
-  },
-  {
     "id": "collections-dobot-atom-ros2",
     "title": "DOBOT Atom ROS 2",
     "categories": [
@@ -88,27 +43,27 @@
     "collectionPath": "collections/dobot/magician-ros"
   },
   {
-    "id": "ARISE-Initiative-robomimic",
-    "key": "ARISE-Initiative/robomimic",
-    "title": "robomimic",
-    "description": "Modular tools for learning robotic manipulation from demonstrations.",
-    "descriptionTh": "เครื่องมือแบบโมดูลสำหรับเรียนรู้ Manipulation จาก Demonstration",
+    "id": "collections-dobot-ros2-vision",
+    "title": "DOBOT Vision & Manipulation",
     "categories": [
-      "learning",
-      "manipulation",
-      "research"
+      "vision",
+      "manipulation"
     ],
     "tags": [
-      "Imitation learning",
-      "Demonstrations",
-      "Manipulation"
+      "RealSense",
+      "YOLO",
+      "ROS 2",
+      "EG0053-01"
     ],
-    "source": "upstream",
-    "owner": "ARISE-Initiative",
-    "url": "https://github.com/ARISE-Initiative/robomimic",
-    "upstream": "https://github.com/ARISE-Initiative/robomimic",
-    "license": "MIT",
-    "verifiedOn": "2026-10-10"
+    "description": "RealSense / calibration / recognition examples for the EG0053-01 workstation.",
+    "descriptionTh": "ตัวอย่างกล้อง RealSense, Hand-eye Calibration และ Grasping สำหรับ Workstation EG0053-01",
+    "source": "collection",
+    "owner": "Dobot-Arm",
+    "url": "https://github.com/SSRobotic/dobot-vision",
+    "upstream": "https://github.com/Dobot-Arm/dobot_ros2_vision",
+    "verifiedOn": "2026-10-10",
+    "key": "dobot-vision",
+    "collectionPath": "collections/dobot/ros2-vision"
   },
   {
     "id": "huggingface-lerobot",
@@ -132,5 +87,95 @@
     "license": "Apache-2.0",
     "verifiedOn": "2026-10-10",
     "key": "huggingface/lerobot"
+  },
+  {
+    "id": "moveit-moveit2",
+    "key": "moveit/moveit2",
+    "title": "MoveIt 2",
+    "description": "ROS 2 motion-planning and manipulation framework.",
+    "descriptionTh": "เฟรมเวิร์ก Motion Planning และ Manipulation สำหรับ ROS 2",
+    "categories": [
+      "manipulation",
+      "ros",
+      "algorithms"
+    ],
+    "tags": [
+      "ROS 2",
+      "Motion planning",
+      "Manipulation"
+    ],
+    "source": "upstream",
+    "owner": "moveit",
+    "url": "https://github.com/moveit/moveit2",
+    "upstream": "https://github.com/moveit/moveit2",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "ARISE-Initiative-robomimic",
+    "key": "ARISE-Initiative/robomimic",
+    "title": "robomimic",
+    "description": "Modular tools for learning robotic manipulation from demonstrations.",
+    "descriptionTh": "เครื่องมือแบบโมดูลสำหรับเรียนรู้ Manipulation จาก Demonstration",
+    "categories": [
+      "learning",
+      "manipulation",
+      "research"
+    ],
+    "tags": [
+      "Imitation learning",
+      "Demonstrations",
+      "Manipulation"
+    ],
+    "source": "upstream",
+    "owner": "ARISE-Initiative",
+    "url": "https://github.com/ARISE-Initiative/robomimic",
+    "upstream": "https://github.com/ARISE-Initiative/robomimic",
+    "license": "MIT",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "ompl-ompl",
+    "key": "ompl/ompl",
+    "title": "OMPL",
+    "description": "Sampling-based motion-planning algorithms; robot collision checking and execution are supplied by integrations.",
+    "descriptionTh": "อัลกอริทึม Motion Planning แบบ Sampling ต้องเชื่อมระบบตรวจ Collision และการสั่งงานของหุ่นยนต์เอง",
+    "tags": [
+      "Motion planning",
+      "RRT",
+      "Sampling"
+    ],
+    "categories": [
+      "algorithms",
+      "manipulation"
+    ],
+    "source": "upstream",
+    "owner": "ompl",
+    "url": "https://github.com/ompl/ompl",
+    "upstream": "https://github.com/ompl/ompl",
+    "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "nvlabs-curobo",
+    "key": "NVlabs/curobo",
+    "title": "cuRobo",
+    "description": "GPU-accelerated robot motion-generation tools; verify the API version and supported robot setup upstream.",
+    "descriptionTh": "เครื่องมือสร้างการเคลื่อนไหวหุ่นยนต์ด้วย GPU ตรวจรุ่น API และการตั้งค่าโมเดลที่รองรับจากต้นฉบับ",
+    "tags": [
+      "CUDA",
+      "Trajectory optimization",
+      "Motion planning"
+    ],
+    "categories": [
+      "algorithms",
+      "manipulation"
+    ],
+    "source": "upstream",
+    "owner": "NVlabs",
+    "url": "https://github.com/NVlabs/curobo",
+    "upstream": "https://github.com/NVlabs/curobo",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10"
   }
 ]
